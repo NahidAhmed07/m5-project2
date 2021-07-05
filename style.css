@@ -1,0 +1,82 @@
+/* navbar */
+*{
+  margin: 0;
+}
+body{
+  margin: 0;
+  transition: 0.5s;
+  font-family: 'Roboto Mono', monospace;
+}
+.navbar{
+  height: 10vh;
+  background-color: #FFFFFF;
+  color:#000;
+  display: flex;
+  font-family: 'Roboto Mono', monospace;
+  padding: 0 40px;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.navbar p{
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.nav-item ul{
+  margin: 0;
+}
+
+.nav-item li {
+  list-style: none;
+  display: inline;
+  padding:20px 20px;
+  
+}
+.nav-item li a{
+  text-decoration: none;
+  color:#000;
+}
+.nav-item li:hover{
+  background-color: rgb(179, 178, 178);
+}
+
+.flex-container{
+  display: flex;
+}
+
+/* home  */
+#home{
+  height: 90vh;
+  background-image: url("./images/mac.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  padding: 0 50px;
+  font-family: 'Roboto Mono', monospace;
+}
+h1{
+  font-size: 4rem;
+  font-weight: 300; 
+  padding: 80px 0 50px;
+  letter-spacing: 0.01px;
+  word-spacing:0.1;
+}
+p{
+  font-size: 1.2rem;
+}
+.p-2{
+  display: inline-block;
+  margin: 50px 0;
+  padding: 15px 15px;
+  color: #000;
+  border-radius: 4px;
+  transition: 0.5s;
+  background-color: #afafaf;
+}
+.p-2:hover{
+  background-color: #fff;
+
+}
+
